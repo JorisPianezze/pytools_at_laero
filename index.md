@@ -1,7 +1,5 @@
 # pytools at laero
 
-<a href='https://jorispianezze.github.io/pytools_at_laero/'>View</a>
-
 ## Example
 
 | Plot 1 | Plot 2 | Plot 3 | Plot 4 |
