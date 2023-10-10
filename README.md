@@ -1,6 +1,6 @@
 # pytools at laero
 
-<a href='https://jorispianezze.github.io/pytools_at_laero/'>View</a>
+<a href='https://jorispianezze.github.io/pytools_at_laero/'>View on GitHub pages</a>
 
 ## Example
 
