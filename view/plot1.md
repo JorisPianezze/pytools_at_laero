@@ -1,5 +1,7 @@
 ## Plot 1
 
+[[Back to home](https://jorispianezze.github.io/pytools_at_laero/)]
+
 ![plot1.png](../figures/plot1.png)
 
 ````python
