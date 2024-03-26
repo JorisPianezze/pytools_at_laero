@@ -2,6 +2,7 @@
 
 ![plot1.png](../figures/MayaviPlt1.png)
 
+````python
 # --------------------------------------------------------
 #
 #                 G. Feger  (    06/02/2024   )
@@ -80,3 +81,4 @@ mlab.orientation_axes()
 mlab.colorbar(object=contour2, nb_colors=3, nb_labels=3, orientation='vertical', title='IFN FREE (#/cm3)')
 mlab.title('Simulation Méso-NH', line_width=2.0, size=4, figure=fig)
 mlab.text3d(lon[-104],lat[-44],alt[26]/ratio, 'Saharan air layer', scale=0.4, color=(0.6,0,0.3))
+````
