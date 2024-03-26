@@ -13,6 +13,6 @@
 
 * Create a file in view directory based on plot1.md
 * Import your figure in figures directory
-* Import your script in scripts directory
-* Modify table in README.md (visible on github)
-* Modify table in index.md (visible on github pages)
+* Import your script in python directory
+* Modify the table in README.md (visible on github)
+* Modify the table in index.md (visible on github pages)
