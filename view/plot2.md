@@ -1,4 +1,4 @@
-## Plot 1
+## Plot 2
 
 ![plot1.png](../figures/MayaviPlt1.png)
 
