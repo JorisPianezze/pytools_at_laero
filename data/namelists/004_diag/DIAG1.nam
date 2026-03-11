@@ -1,0 +1,6 @@
+&NAM_DIAG_FILE YINIFILE(1)    = "EXP01.1.SEG01.004",
+               YINIFILEPGD(1) = "PGD",
+               YSUFFIX        = "diag" /
+
+&NAM_DIAG LISOAL    = .TRUE.,
+          XISOAL(1) = 500.0 /

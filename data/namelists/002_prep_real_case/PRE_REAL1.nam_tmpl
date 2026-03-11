@@ -1,0 +1,12 @@
+&NAM_FILE_NAMES HPGDFILE     = "PGD",
+                HATMFILE     = "era5.YEARMONTHDAY.HOUR",
+                HATMFILETYPE = "GRIBEX",
+                CINIFILE     = "ERA5.YEARMONTHDAY.HOUR" /
+
+&NAM_VER_GRID  NKMAX        = 30,
+               YZGRID_TYPE  = "FUNCTN",
+               ZDZGRD       = 100.,
+               ZDZTOP       = 3000.,
+               ZZMAX_STRGRD = 1500.,
+               ZSTRGRD      = 10.,
+               ZSTRTOP      = 15. /

@@ -1,0 +1,26 @@
+&NAM_PGDFILE CPGDFILE = "PGD" /
+
+&NAM_PGD_GRID CGRID = "CONF PROJ" /
+
+&NAM_CONF_PROJ XLAT0 = 43.604,
+               XLON0 = 1.444,
+               XRPK  = 0.,
+               XBETA = 0. /
+
+&NAM_CONF_PROJ_GRID XLATCEN = 43.604,
+                    XLONCEN = 1.444,
+                    NIMAX   = 50,
+                    NJMAX   = 50,
+                    XDX     = 10000.,
+                    XDY     = 10000. /
+
+&NAM_COVER YCOVER         = "ECOCLIMAP_v2.0",
+           YCOVERFILETYPE = "DIRECT" /
+
+&NAM_ZS YZS         = "gtopo30",
+        YZSFILETYPE = "DIRECT" /
+
+&NAM_ISBA YCLAY         = "CLAY_HWSD_MOY",
+          YCLAYFILETYPE = "DIRECT",
+          YSAND         = "SAND_HWSD_MOY",
+          YSANDFILETYPE = "DIRECT" /

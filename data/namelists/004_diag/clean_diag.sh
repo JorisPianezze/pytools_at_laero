@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm PGD.*
+rm EXP01.*
+rm OUTPUT_LISTING0
+rm OUTPUT_LISTING1

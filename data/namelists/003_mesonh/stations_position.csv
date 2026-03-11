@@ -1,0 +1,4 @@
+Name, Lat[deg], Lon[deg], Alt[m]
+station1, 44.0,  0.0, 10.0
+station2, 43.0,  1.0, 10.0
+station3, 42.0,  2.0, 10.0

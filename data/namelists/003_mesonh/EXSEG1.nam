@@ -1,0 +1,71 @@
+&NAM_LUNITn CINIFILE    = "ERA5.20251113.00",
+            CINIFILEPGD = "PGD",
+            CCPLFILE(1) = "ERA5.20251113.06",
+            CCPLFILE(2) = "ERA5.20251113.12",
+            CCPLFILE(3) = "ERA5.20251113.18",
+            CCPLFILE(4) = "ERA5.20251114.00" /
+
+&NAM_CONF CCONF   = "START",
+          CEXP    = "EXP01",
+          CSEG    = "SEG01" /
+
+&NAM_DYN XSEGLEN  = 86400.,
+         LNUMDIFU = .TRUE.,
+         XALKTOP  = 0.01,
+         XALZBOT  = 14000. /
+         
+&NAM_BACKUP XBAK_TIME_FREQ_FIRST(1) = 0.,
+            XBAK_TIME_FREQ(1)       = 21600. /
+
+&NAM_DYNn XTSTEP         = 60.,
+	  CPRESOPT       = "CRESI",
+          LHORELAX_UVWTH = .TRUE.,
+          LHORELAX_RV    = .TRUE.,
+          LVE_RELAX      = .TRUE.,
+          NRIMX          = 5,
+          NRIMY          = 5,
+          XT4DIFU        = 1800. /
+
+&NAM_ADVn CTEMP_SCHEME    = "RKC4",
+          CUVW_ADV_SCHEME = "CEN4TH",
+          CMET_ADV_SCHEME = "PPM_01" /
+
+&NAM_LBCn CLBCX = 2*"OPEN",
+          CLBCY = 2*"OPEN" /
+
+&NAM_PARAMn CTURB  = "TKEL",
+            CRAD   = "ECMW",
+            CCLOUD = "ICE3",
+            CSCONV = "EDKF",
+            CDCONV = "KAFR" /
+
+&NAM_PARAM_RADn XDTRAD        = 300.,
+                XDTRAD_CLONLY = 300. /
+
+&NAM_PARAM_KAFRn XDTCONV = 300. /
+
+&NAM_TURBn CTURBLEN = "BL89",
+           CTURBDIM = "1DIM" /
+
+&NAM_OUTPUT COUT_VAR(1,1,1)             = "INPRR",
+            COUT_VAR(1,1,2)             = "ACPRR",
+            COUT_VAR(1,1,3)             =    "UT",
+            COUT_VAR(1,1,4)             =    "VT",
+            COUT_VAR(1,1,5)             =   "THT",
+            COUT_VAR(1,1,6)             =   "RVT",
+            LOUT_BEG(1)                 =  .TRUE.,
+            XOUT_TIME_FREQ_FIRST(1,1)   =      0.,
+            XOUT_TIME_FREQ(1,1)         =    600.,
+            LOUT_REDUCE_FLOAT_PRECISION =       T,
+            COUT_DIR                    = "OUTPUT" /
+
+&NAM_DIAG_SURFn N2M           = 2,
+                LSURF_BUDGET  = T,
+                LRAD_BUDGET   = T,
+                LCOEF         = T,
+                LSURF_BUDGETC = T,
+                LSURF_VARS    = T /
+
+&NAM_STATIONn NNUMB_STAT =     3,
+              XSTEP_STAT = 600.0,
+              CFILE_STAT = "stations_position.csv" / 
