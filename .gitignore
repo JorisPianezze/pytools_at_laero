@@ -1,0 +1,8 @@
+data/namelists/*/*.dir
+data/namelists/*/*.hdr
+data/namelists/*/OUTPUT*
+data/namelists/*/*.des
+data/namelists/*/*.nc
+data/namelists/*/*.png
+data/namelists/*/PRE_REAL1.nam_2025*
+data/namelists/*/spectra*
