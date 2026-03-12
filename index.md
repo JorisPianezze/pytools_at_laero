@@ -2,10 +2,9 @@
 # Contents
 <!-- ========================================= -->
 
-[Plots](#Plots)
-- [Horizontal cross-section](#Horizontal_cross-section)
-
-[Utils](#Utils)
+- [Plots](#Plots)
+  - [Horizontal cross-section](#Horizontal_cross-section)
+- [Utils](#Utils)
 
 <!-- ========================================= -->
 # Plots <a name="Plots"></a>
