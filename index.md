@@ -1,5 +1,7 @@
 # pytools at laero
 
+[TOC]
+
 ## Plots
 ---
 

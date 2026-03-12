@@ -1,4 +1,4 @@
-## Plot 2
+## Horizontal cross-section
 
 ![plot_horizontal_cross_section.png](plot_horizontal_cross_section.png)
 
