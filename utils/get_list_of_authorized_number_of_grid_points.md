@@ -1,6 +1,3 @@
-## Get the list of authorized number of grid points
-  
-````python
 import numpy as np
 #Max number of exponent for 2,3 and 5
 n2=15
@@ -16,4 +13,3 @@ for i in range(n2):
 val.sort()
 np.set_printoptions(formatter={'float': '{: 5.0f}'.format})
 print(val)
-```
